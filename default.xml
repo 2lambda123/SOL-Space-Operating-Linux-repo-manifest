@@ -7,8 +7,5 @@
 
   <project name="meta-sol"/>
   <project name="meta-tegra" revision="thud-l4t-r32.1"/>
-  <project name="poky" path="poky-tx2" remote="yocto" revision="thud">
-    <linkfile src="../meta-sol" dest="meta-sol"/>
-    <linkfile src="../meta-tegra" dest="meta-tegra"/>
-  </project>
+  <project name="poky" path="poky-tx2" remote="yocto" revision="thud"/>
 </manifest>
