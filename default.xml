@@ -2,6 +2,8 @@
 <manifest>
   <remote name="sol" fetch="https://github.com/SOL-Space-Operating-Linux"/>
   <remote name="yocto" fetch="git://git.yoctoproject.org"/>
+  <remote name="linaro" fetch="git://git.linaro.org/openembedded/meta-linaro.git"/>
+  <remote name="oe" fetch="git://git.openembedded.org/meta-openembedded"/>
 
   <default remote="sol" revision="refs/heads/master"/>
 
