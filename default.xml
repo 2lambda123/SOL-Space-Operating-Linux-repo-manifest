@@ -8,9 +8,9 @@
 
   <default remote="sol" revision="refs/heads/master"/>
 
-  <project name="poky" path="poky-tx2i" remote="yocto" revision="warrior"/>
-  <project name="meta-sol" path="poky-tx2i/meta-sol"/>
-  <project name="meta-tegra" path="poky-tx2i/meta-tegra" revision="warrior-l4t-r32.2"/>
-  <project name="meta-openembedded" path="poky-tx2i/meta-openembedded" remote="oe" revision="warrior"/>
-  <project name="meta-linaro" path="poky-tx2i/meta-linaro" remote="linaro" revision="warrior"/>
+  <project name="poky" path="poky-tx2i" remote="yocto" revision="zeus"/>
+  <project name="meta-sol" path="poky-tx2i/meta-sol" revision="zeus-l4t-r32.3.1"/>
+  <project name="meta-tegra" path="poky-tx2i/meta-tegra" revision="zeus"/>
+  <project name="meta-openembedded" path="poky-tx2i/meta-openembedded" remote="oe" revision="zeus"/>
+  <project name="meta-linaro" path="poky-tx2i/meta-linaro" remote="linaro" revision="zeus"/>
 </manifest>
