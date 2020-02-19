@@ -31,7 +31,7 @@ Or, install manually:
 
     $ cd poky-tx2i
     $ . ./oe-init-build-env
-    $ cd build/conf
+    $ cd conf
     $ cp ../../../.repo/manifests/bblayers.conf.template bblayers.conf
     $ cp ../../../.repo/manifests/local.conf.template local.conf
 
