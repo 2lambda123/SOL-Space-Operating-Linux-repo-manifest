@@ -25,7 +25,7 @@ Or, install manually:
     $ cd sol
     $ repo init -u https://github.com/SOL-Space-Operating-Linux/repo-manifest.git
     $ repo sync
-    $ repo forall -c git lfs pull #May require tweaking, still working through LFS issues
+    $ repo forall -c git lfs pull
 
 ## Setup OE Environment
 
