@@ -15,6 +15,6 @@
   <project name="meta-tegra" path="poky-tx2i/meta-tegra" revision="zeus"/>
   <project name="meta-openembedded" path="poky-tx2i/meta-openembedded" remote="oe" revision="zeus"/>
   <project name="meta-linaro" path="poky-tx2i/meta-linaro" remote="linaro" revision="zeus"/>
-  <project name="nvidia-sdk-binaries" path="poky-tx2i/meta-sol/nvidia-sdk-binaries/" revision="Jetpack-4.3-L4T-R32.3.1" remote="uga"/>
+  <project name="nvidia-sdk-binaries" path="nvidia-sdk-binaries" revision="Jetpack-4.3-L4T-R32.3.1" remote="uga"/>
   
 </manifest>
