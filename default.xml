@@ -6,15 +6,14 @@
   <remote name="linaro" fetch="git://git.linaro.org/openembedded"/>
   <remote name="oe" fetch="git://git.openembedded.org"/>
   
-  <remote name="cti" fetch="https://github.com/lfdmn"/>
-
   <default remote="sol" revision="refs/heads/master"/>
 
   <project name="poky" path="poky-tx2i" remote="yocto" revision="zeus"/>
   <project name="meta-sol" path="poky-tx2i/meta-sol" revision="zeus-l4t-r32.3.1"/>
-  <project name="meta-tegra" path="poky-tx2i/meta-tegra" revision="zeus"/>
+  <project name="meta-tegra" path="poky-tx2i/meta-tegra" revision="zeus-l4t-r32.3.1"/>
   <project name="meta-openembedded" path="poky-tx2i/meta-openembedded" remote="oe" revision="zeus"/>
   <project name="meta-linaro" path="poky-tx2i/meta-linaro" remote="linaro" revision="zeus"/>
+  <project name="meta-realtime" path="poky-tx2i/meta-realtime" remote="yocto" revision="zeus"/>
   <project name="nvidia-sdk-binaries" path="nvidia-sdk-binaries" revision="Jetpack-4.3-L4T-R32.3.1" remote="uga"/>
   
 </manifest>
