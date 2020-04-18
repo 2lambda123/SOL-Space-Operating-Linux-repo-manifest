@@ -32,11 +32,11 @@ Download the correct packages next to poky-tx2i
     $ mkdir nvidia-sdk-binaries
     $ <Manually download packages to> ./nvidia-sdk-binaries/*
 
-## 3 alternative) Initialize and Sync (UGA hosted binaries path)
+## 3 Alternative) Initialize and Sync (UGA hosted binaries path)
 
     $ mkdir sol
     $ cd sol
-    $ repo init -u https://github.com/SOL-Space-Operating-Linux/repo-manifest.git -i uga_hosted_nvidia_binaries_manifest.xml
+    $ repo init -u https://github.com/SOL-Space-Operating-Linux/repo-manifest.git -m uga_hosted_nvidia_binaries_manifest.xml
     $ repo sync
     $ repo forall -c git lfs pull
 
