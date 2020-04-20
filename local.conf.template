@@ -267,5 +267,3 @@ MACHINE="jetson-tx2i"
 NVIDIA_DEVNET_MIRROR = "file:///${TOPDIR}/../../nvidia-sdk-binaries/"
 
 CUDA_VERSION = "10.0"
-GCCVERSION = "7.%"
-require contrib/conf/include/gcc-compat.conf
