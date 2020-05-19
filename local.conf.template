@@ -260,8 +260,10 @@ CONF_VERSION = "1"
 # MACHINE="jetson-tx1"
 # MACHINE="jetson-tx2-4gb"
 # MACHINE="jetson-tx2"
-MACHINE="jetson-tx2i"
+# MACHINE="jetson-tx2i"
 # MACHINE="jetson-xavier"
+#MACHINE="jetson-tx2i-live"
+MACHINE="jetson-tx2i-sol"
 
 # Nvidia SDK install location. Update if downloading via SDK instead of git
 NVIDIA_DEVNET_MIRROR = "file:///${TOPDIR}/../../nvidia-sdk-binaries/"
